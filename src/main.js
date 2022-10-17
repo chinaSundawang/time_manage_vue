@@ -12,7 +12,7 @@ Vue.use(ElementUI); // 3.安装
 app.use(router)
 
 app.mount('#app')
-
+// el
 new Vue({
     el:'#app',
     render: h=>(App)
